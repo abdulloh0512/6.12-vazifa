@@ -34,7 +34,7 @@ function Home() {
     FilterCountry(inp);
   };
   return (
-    <div className="container mx-auto max-w-full md:max-w-full dark:bg-[#1b263b] ">
+    <div className="container mt-0 mx-auto mx-auto max-w-full md:max-w-full dark:bg-[#1b263b] ">
       <form onSubmit={searchCountry} className="relative pt-6">
         <input
           ref={inpRef}
